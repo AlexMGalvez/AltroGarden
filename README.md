@@ -10,15 +10,17 @@
 * Strapi - version 3.2.5
 * Vuetify - version 2.3.16
 * GraphQL - version 14.7.0
+* MongoDB - version 3.6.2
 
 ## Launch
-Website link to deployed app: https://practical-galileo-92981c.netlify.app/
+Website link to deployed app: https://altrogarden.netlify.app/
 
 ## Features
 This website includes:
 * Gridsome as a Jamstack framework
 * Vue.js as a front end framework
 * A headless content management system 
+* A database for storing product information
 * A Google maps API
 * The emailjs module which allows someone to contact the store through form submission via email
 
