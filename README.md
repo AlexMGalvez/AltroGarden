@@ -1,6 +1,6 @@
 # Altro Garden Website
 
-![alt text](https://github.com/AlexMGalvez/AltroGarden/blob/master/altro-garden-front/static/altro-garden-logo-light-background.png?raw=true)
+![alt text](https://github.com/AlexMGalvez/AltroGarden/blob/master/static/altro-garden-logo-light-background.png?raw=true)
 
 > This Jamstack application with Vue.js is a website for a small plant nursery to advertise it's stock and take orders for local customers. 
 

@@ -4,17 +4,43 @@
       <v-row align="center">
         <v-card width="100%" class="mt-5 ma-2 pa-8">
           <v-app-bar absolute app flat class="primary" height="120">
-            <v-col sm="10">
+            <v-col cols="10">
               <g-link to="/"
                 ><v-img src="/altro-garden3.png" max-width="220" contain></v-img
               ></g-link>
             </v-col>
-            <v-col sm="2" align-self="end">
+            <v-col cols="2" align-self="end">
+              <!-- for mobile screens -->
+              <template>
+                <v-btn
+                  color="secondary"
+                  class="hidden-md-and-up"
+                  align-self="end"
+                  icon
+                  @click="dialog = !dialog"
+                >
+                  <v-icon>mdi-magnify</v-icon>
+                </v-btn>
+              </template>
+              <v-dialog v-model="dialog" max-width="500px">
+                <v-card>
+                  <v-card-text>
+                    <v-text-field
+                    placeholder="Search"
+                      v-model="searchText"
+                      @click:clear="searchText = ''"
+                      @keyup.enter="dialog = false"
+                    ></v-text-field>
+                  </v-card-text>
+                </v-card>
+              </v-dialog>
+
+              <!-- for large screens -->
               <v-text-field
                 v-model="searchText"
                 @click:clear="searchText = ''"
                 placeholder="Search"
-                class="secondary"
+                class="secondary hidden-sm-and-down"
                 style="max-width: 300px"
                 prepend-inner-icon="mdi-magnify"
                 clearable
@@ -67,6 +93,7 @@ query {
 export default {
   data() {
     return {
+      dialog: false,
       searchText: "",
     };
   },

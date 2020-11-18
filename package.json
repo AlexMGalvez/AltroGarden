@@ -11,8 +11,7 @@
     "emailjs-com": "^2.6.3",
     "gridsome": "^0.7.0",
     "vue2-google-maps": "^0.10.7",
-    "vuetify": "^2.3.16",
-    "x5-gmaps": "^0.3.27"
+    "vuetify": "^2.3.16"
   },
   "devDependencies": {
     "webpack-node-externals": "^2.5.2"

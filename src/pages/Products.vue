@@ -1,6 +1,6 @@
 <template>
   <Layout v-slot="{ searchText }">
-    <v-row>
+    <v-row style="margin-bottom: 20px;">
       <v-col sm="8" offset-sm="2">
         <!-- for mobile screens -->
         <v-menu offset-y>
