@@ -58,6 +58,8 @@ export default function (Vue, { appOptions, head }) {
     return formatter.format(value);
   });
 
+  // Disable warning in console during production
+  Vue.config.productionTip = false
 }
 
 

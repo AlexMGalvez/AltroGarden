@@ -9,7 +9,7 @@
               CATEGORIES
             </v-btn>
           </template>
-          <v-list v-model="list">
+          <v-list>
             <v-list-item @click="showAllProducts()">
               <v-list-item-title>All Plants</v-list-item-title>
             </v-list-item>

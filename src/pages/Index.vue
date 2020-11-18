@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <link rel="shortcut icon" href="">
     <h1 class="text-center ma-2 brownText--text">Welcome to Altro Garden Nursery</h1>
     <v-card-text class="pa-8 brownText--text">
       <p>
