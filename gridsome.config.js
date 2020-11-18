@@ -5,8 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  //host: 'altrogarden.netlify.app',
-  siteName: 'Gridsome',
+  siteName: 'Altro Garden',
   transpileDependencies: [/^vue2-google-maps($|\/)/],
   plugins: []
 }
