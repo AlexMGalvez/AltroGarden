@@ -1,7 +1,9 @@
 <template>
   <Layout>
-    <link rel="shortcut icon" href="">
-    <h1 class="text-center ma-2 brownText--text">Welcome to Altro Garden Nursery</h1>
+    <link rel="shortcut icon" href="" />
+    <h1 class="text-center ma-2 brownText--text">
+      Welcome to Altro Garden Nursery
+    </h1>
     <v-card-text class="pa-8 brownText--text">
       <p>
         We are a small family run nursery based in Kitchener, Ontario that has a
@@ -18,9 +20,9 @@
         For fruiting plants that can be grown outside, we sell many permaculture
         inspired plants that can be grown depending on your plant hardiness
         zone. Many of these plants produce edible fruit, are nitrogen fixers, or
-        just rare to find. Permaculture gardening is a great and ecological way
-        to create a year-round feast on your property. Please consider using
-        this approach if it is new to you.<br /><br />
+        are just simply rare to find. Permaculture gardening is a great and
+        ecological way to create a year-round feast on your property. Please
+        consider using this approach if it is new to you.<br /><br />
 
         ***Due to unprecedented demand, we are out as of June 2020 of most of
         our listed plants but we should have many back in stock by July/ August
