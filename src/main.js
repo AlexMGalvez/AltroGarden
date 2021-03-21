@@ -61,8 +61,6 @@ export default function (Vue, { appOptions, head }) {
   // Disable warning in console during production
   Vue.config.productionTip = false
 
-
-
   head.link.push({
     rel: 'stylesheet',
     href: 'https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css'
