@@ -4,12 +4,27 @@
       <v-row align="center">
         <v-card width="100%" class="mt-5 ma-2 pa-8">
           <v-app-bar absolute app flat class="primary" height="120">
-            <v-col sm="10">
+            <v-col cols="6">
               <g-link to="/"
                 ><v-img src="/altro-garden3.png" max-width="220" contain></v-img
               ></g-link>
             </v-col>
-            <v-col sm="2" align-self="end">
+            <v-col cols="6" class="text-right">
+              <v-row align="center">
+                <v-spacer></v-spacer>
+                <p
+                  class="snipcart-total-price brownText--text"
+                  style="margin-bottom: 0px"
+                >
+                  {{ this.totalPrice | toCurrency }}
+                </p>
+                <g-link class="snipcart-checkout">
+                  <v-btn icon>
+                    <v-icon>mdi-cart</v-icon>
+                  </v-btn>
+                </g-link>
+              </v-row>
+
               <!-- <v-text-field
                 v-model="searchText"
                 @click:clear="searchText = ''"
@@ -69,7 +84,16 @@ export default {
   data() {
     return {
       searchText: "",
+      totalPrice: 0,
     };
+  },
+  methods: {
+    getTotalPrice: function () {
+      return Snipcart.store.getState().cart.total;
+    },
+  },
+  mounted: function () {
+    this.totalPrice = this.getTotalPrice();
   },
 };
 </script>

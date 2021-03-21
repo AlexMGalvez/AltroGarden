@@ -60,6 +60,24 @@ export default function (Vue, { appOptions, head }) {
 
   // Disable warning in console during production
   Vue.config.productionTip = false
+
+
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css'
+  });
+
+  head.script.push({
+    type: 'text/javascript',
+    src: 'https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js',
+    body: true,
+
+    // snipcart's attributes
+    id: 'snipcart',
+    'data-api-key': 'MjEzYjMzYTUtYTJhZS00NDBkLWI5MWEtYTYzMmExMGUyNDljNjM3NTE4NjEzNjU1Mjg3OTM3',
+    'data-config-modal-style': 'side'
+  });
 }
 
 

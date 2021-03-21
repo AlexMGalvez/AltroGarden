@@ -4,8 +4,8 @@
       <v-col cols="12" md="4">
         <h1 class="brownText--text">Contact Us</h1>
         <p class="brownText--text">
-          Please contact us first by email or form submission below before
-          arriving so that we can confirm your order.<br />
+          Please wait for us to send you a confirmation email before arriving so
+          that we may prepare your order.<br />
         </p>
         <v-icon color="green darken-1" left>mdi-email</v-icon
         ><a href="mailto:AltroGarden@mail.com">AltroGarden@mail.com</a
@@ -26,8 +26,8 @@
         <v-col sm="9">
           <h1 class="text-center brownText--text">Contact Form</h1>
           <p class="text-center brownText--text">
-            If you have any interest in any of our plants or have any questions,
-            fill out the form below and you'll receive a response promptly.
+            If you have any questions about our plants, please fill out the form
+            below and you'll receive a response promptly.
           </p>
         </v-col>
       </v-row>
