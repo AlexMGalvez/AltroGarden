@@ -14,7 +14,7 @@
           We currently do not provide postal delivery because of our limited and
           fast selling stock. For the time being we only sell to customers
           willing to pick up at our store location.<br /><br />
-          We are located in Kitchener, Ontario on 30 Dieppe Avenue. N2H 4G1
+          We are located in Kitchener, Ontario on 200 King Street West. N2G 4G7
         </p>
       </v-col>
       <v-col cols="12" md="8">

@@ -12,7 +12,7 @@
 <script>
 export default {
   data: () => ({
-    location: { lat: 43.46096, lng: -80.4939},
+    location: { lat: 43.45162, lng: -80.4921},
   })
 };
 </script>

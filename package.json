@@ -7,11 +7,11 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "emailjs-com": "^2.6.3",
-    "gridsome": "^0.7.0",
+    "axios": "^0.21.1",
+    "emailjs-com": "^2.6.4",
+    "gridsome": "^0.7.23",
     "vue2-google-maps": "^0.10.7",
-    "vuetify": "^2.3.16"
+    "vuetify": "^2.4.7"
   },
   "devDependencies": {
     "webpack-node-externals": "^2.5.2"
